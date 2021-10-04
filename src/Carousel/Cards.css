@@ -1,0 +1,19 @@
+.DucatiGridText1{
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.ducatiCard1{
+    margin-right: 2%;
+    transition: all .2s ease-in-out;
+
+}
+.ducatiCard1:hover{
+    transform: rotateZ(-12deg);
+}
+
+.carouselImage{
+    width: 300px;
+    height: 200px;
+}

@@ -1,0 +1,55 @@
+.ducatiNav{
+    position: fixed;
+    top: 5%;
+    height: 15%;
+    width: 95%;
+    margin-left: 2.5%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.ducatiNav img{
+    height: 75%;
+    margin-left: 5% ;
+    margin-top: 1%;
+    margin-right: 5%;
+}
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction:row ;
+}
+ul li{
+    margin-top: 5%;
+    margin-left: 6%;
+    width: 12rem;
+}
+.responModel{
+    display: none;
+}
+ul li a {
+    text-decoration: none;
+   font-size: .9rem;
+   color: black;
+   font-weight: bolder;
+}
+@media (max-width:969px){
+   ul{
+       display: none;
+   }
+   .ducatiNav img{
+    height: 75%;
+    margin-left: 47% ;
+    margin-top: 1%;
+}
+.responModel{
+    display: block;
+    color: red;
+    text-decoration: none;
+    font-size: .9rem;
+    font-weight: bolder;
+    position: fixed;
+    right: 5%;
+    margin-top: 3%;
+}
+}
